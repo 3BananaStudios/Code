@@ -7,7 +7,10 @@
         <title> Moja pierwsza strona </title>
 
         <script type="text/javascript">
-
+            function powcisnieciu()
+            {
+                document.getElementById("tytul").innerHTML = document.getElementById("pole").value
+            }
         </script>
 
     </head>
@@ -15,6 +18,6 @@
         <h1 id="tytul"> Witaj Swiecie </h1>
         <input id="pole" type="text" />
         <br>
-        <input type="button" value="Wcisnij mnie!" onclick="alert('Witaj Swiecie')" />
+        <input type="button" value="Wcisnij mnie!" onclick="powcisnieciu()" />
     </body>
 </html>
