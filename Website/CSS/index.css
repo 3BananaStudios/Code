@@ -1,0 +1,23 @@
+body{
+    font: 12px verdana, sans-serif;
+}
+#container{
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("http://www.siwallpaperhd.com/wp-content/uploads/2016/02/yummy_cupcakes_wallpaper.jpg");
+    background-size: 750px 750px;
+    height: 750px;
+    width: 50%;
+}
+#header{
+    padding: 10px 0;
+    width: 100%;
+    background-color: lightsteelblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header h1{
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+}
