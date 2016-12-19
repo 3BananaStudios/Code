@@ -2,5 +2,9 @@
 <!-- Komodo Project File - DO NOT EDIT -->
 <project id="4f000e07-ea06-4e6c-8880-07b51ca2cad3" kpf_version="5" name="FancyCakes.komodoproject">
 <preference-set idref="4f000e07-ea06-4e6c-8880-07b51ca2cad3" id="project" preftype="project">
+  <string relative="path" id="import_dirname"></string>
+  <string id="last_local_directory">None</string>
+  <string id="last_remote_directory">None</string>
+  <long id="prefs_version">1</long>
 </preference-set>
 </project>

@@ -1,23 +1,124 @@
-body{
-    font: 12px verdana, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+body {
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
 }
-#container{
+
+.container {
     margin-right: auto;
     margin-left: auto;
-    background-image: url("http://www.siwallpaperhd.com/wp-content/uploads/2016/02/yummy_cupcakes_wallpaper.jpg");
-    background-size: 750px 750px;
-    height: 750px;
-    width: 50%;
+    background-image: url("http://i.imgur.com/HIiS13Z.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1080px;
+    width: 960px;
 }
-#header{
+
+.header {
     padding: 10px 0;
     width: 100%;
-    background-color: lightsteelblue;
+    height: 160px;
+    background-image: url("http://i.imgur.com/tUnZBYN.png");
     margin-left: auto;
     margin-right: auto;
 }
-#header h1{
-    font-size: 18px;
-    margin: 10px;
+
+.header h1 {
+    font-size: 75px;
+    color: #000000;
+    margin: 5px;
     text-align: center;
 }
+
+.menu h1{
+    float: left;
+    font-size: 47px;
+    padding-left: 150px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#textbox1{
+    float: left;
+    width: 430px;
+    height: 350px;
+    margin: 40px 0px 0px 25px;
+    background-image: url("http://i.imgur.com/r07GLeG.png");
+}
+
+#textbox1 h2{
+    color: #000000;
+    font-size: 45px;
+    text-align: center;
+}
+
+#textbox1 p{
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    word-wrap: break-word;
+    margin-top: -20px;
+}
+
+#textbox2{
+    float: left;
+    width: 430px;
+    height: 350px;
+    margin: 40px 0px 0px 50px;
+    background-image: url("http://i.imgur.com/r07GLeG.png");
+}
+
+#textbox2 h2{
+    color: #000000;
+    font-size: 45px;
+    text-align: center;
+}
+
+#textbox2 p{
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    word-wrap: break-word;
+    margin-top: -20px;
+}
+
+.imagecontainer{
+    float: left;
+    width: 640px;
+    height: 480px;
+    padding-left: 150px;
+    margin-top: -18px;
+}
+
+.imagecontainer h1{
+     color: #000000;
+    text-align: center;
+}
+
+.images{
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: -25px;
+}
+
+.footer{
+    width: 960px;
+    height: 60px;
+    background-color: #000000;
+    margin-top: 840px;
+}
+
+.phone{
+    float: left;
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+
+.fa-phone{
+    color: #FFFFFF;
+}
+
