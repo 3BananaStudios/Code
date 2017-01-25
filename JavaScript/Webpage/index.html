@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+
+
+
+</head>
+<body>
+    <h1 id="header1"></h1>
+    <input id="textInput" type="text">
+
+    <script>
+        var header1 = "header1"; var textInput = "textInput";
+        function changeHeader(){
+            var text = document.getElementById(textInput).value;
+            document.getElementById(header1).innerHTML = text;
+        }
+    </script>
+
+    <input type="button" onclick="changeHeader(); ">
+
+
+</body>
+</html>
